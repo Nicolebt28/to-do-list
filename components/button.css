@@ -1,0 +1,16 @@
+.button {
+  background-color: #ff9ff3;
+  color: #ffffff;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  border: none;
+  padding: 10px 10px;
+  cursor: pointer;
+  width: 200px;
+  justify-self: center;
+  border-radius: 15px;
+  outline: none;
+  margin-bottom: 10px;
+}
+
