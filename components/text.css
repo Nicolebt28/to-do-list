@@ -1,6 +1,7 @@
 .text__maintitle {
-  color: white;
+  color: #fff;
   text-align: center;
+  text-shadow: 3px 3px 0px #f0932b;
   font-size: 35px;
   margin-top: 40px;
 }
