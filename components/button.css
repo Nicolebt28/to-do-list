@@ -1,7 +1,7 @@
 .button {
-  background-color: #ff9ff3;
-  color: #ffffff;
-  font-family: 'Alegreya Sans SC', sans-serif;
+  background-color: #fff;
+  color: #f0932b;
+  font-family: 'Crete Round', serif;
   text-decoration: none;
   font-size: 20px;
   border: none;
@@ -12,5 +12,6 @@
   border-radius: 15px;
   outline: none;
   margin-bottom: 10px;
+  box-shadow: 3px 3px 0px #f0932b;
 }
 
