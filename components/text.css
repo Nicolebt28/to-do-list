@@ -2,7 +2,15 @@
   color: #fff;
   text-align: center;
   text-shadow: 3px 3px 0px #f0932b;
-  font-size: 35px;
-  margin-top: 40px;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 2px;
 }
 
+@media (min-width: 600px) {
+.text__maintitle {
+  font-size: 35px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+}
