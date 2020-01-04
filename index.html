@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
+  <html lang="en">
   <title>To-Do App</title>
   <link href="https://fonts.googleapis.com/css?family=Crete+Round&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" type="text/css" href="colorsbutton.js">
 </head>
 
-<body class="x">
+<body>
   <h1 class="text__maintitle">TASKS TO BE DONE</h1>
   <form class="checklist">
     <label class="container">
@@ -16,15 +16,15 @@
         <span class="checklist__checkmark"></span>
       </label>
       <input class="checklist__to-do-item" type= "text">
-    </label><br>
+    </label>
 
     <label class="container">
-      <label class="checklist__custom">
+      <label for="checkbox-check" class="checklist__custom">
         <input class="checklist__box" id="checkbox" type= "checkbox">
         <span class="checklist__checkmark"></span>
       </label>
-      <input class="checklist__to-do-item" type= "text">
-    </label><br>
+      <input id="checkbox-check" class="checklist__to-do-item" type= "text">
+    </label>
       
     <label class="container">
       <label class="checklist__custom">
@@ -32,7 +32,7 @@
         <span class="checklist__checkmark"></span>
         </label>
         <input class="checklist__to-do-item" type= "text">
-    </label><br>
+    </label>
 
     <label class="container">
       <label class="checklist__custom">
@@ -40,7 +40,7 @@
         <span class="checklist__checkmark"></span>
       </label>
       <input class="checklist__to-do-item" type= "text">
-    </label><br>
+    </label>
       
     <label class="container">
       <label class="checklist__custom">
@@ -48,7 +48,7 @@
         <span class="checklist__checkmark"></span>
       </label>
       <input class="checklist__to-do-item" type= "text">
-    </label><br>
+    </label>
 
     <label class="container">
       <label class="checklist__custom">
@@ -56,7 +56,7 @@
         <span class="checklist__checkmark"></span>
       </label>
       <input class="checklist__to-do-item" type= "text">
-    </label><br>
+    </label>
 
     <label class="container">
       <label class="checklist__custom">
@@ -64,7 +64,7 @@
         <span class="checklist__checkmark"></span>
       </label>
       <input class="checklist__to-do-item" type= "text">
-    </label><br>
+    </label>
 
     <label class="container">
       <label class="checklist__custom">
@@ -72,7 +72,7 @@
         <span class="checklist__checkmark"></span>
       </label>
       <input class="checklist__to-do-item" type= "text">
-    </label><br>
+    </label>
 
     <label class="container">
       <label class="checklist__custom">
@@ -80,7 +80,7 @@
         <span class="checklist__checkmark"></span>
       </label>
       <input class="checklist__to-do-item" type= "text">
-    </label><br>
+    </label>
 
     <label class="container">
       <label class="checklist__custom">
@@ -88,9 +88,9 @@
         <span class="checklist__checkmark"></span>
       </label>
       <input class="checklist__to-do-item" type= "text">
-    </label><br>
+    </label>
 
-
+  <div>
     <input class="button" type= "reset" value="I'm All Done!">
   </div>
 </form>

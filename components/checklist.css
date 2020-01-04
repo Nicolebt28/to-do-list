@@ -37,11 +37,11 @@
 }
 
 .checklist__to-do-item{
-  margin: 2px;
-  padding: 2px;
+  margin: 4px;
+  padding: 4px;
   width: 235px;
   font-family: 'Crete Round', serif;
-  font-size: 18px;
+  font-size: 16px;
   color: #f0932b;
   background-color: #f6e58d;
   box-sizing: border-box;
