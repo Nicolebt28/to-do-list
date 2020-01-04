@@ -3,15 +3,27 @@
   color: #f0932b;
   font-family: 'Crete Round', serif;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
   border: none;
-  padding: 10px 10px;
+  padding: 5px 5px;
   cursor: pointer;
+  width: 150px;
+  justify-self: center;
+  border-radius: 10px;
+  outline: none;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-shadow: 3px 3px 0px #f0932b;
+}
+
+@media (min-width: 600px) {
+.button {
+  font-size: 20px;
+  padding: 10px 10px;
   width: 200px;
   justify-self: center;
   border-radius: 15px;
-  outline: none;
-  margin-bottom: 10px;
-  box-shadow: 3px 3px 0px #f0932b;
+  margin-top: 0px;
+}
 }
 
