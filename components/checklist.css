@@ -3,6 +3,9 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .checklist__custom input {
@@ -27,7 +30,7 @@
 .checklist__custom input:checked + .checklist__checkmark:after {
   content: " ";
   position: absolute;
-  height: 5px;
+  height: 5px; 
   width: 10px;
   border-left: 2px solid #f0932b;
   border-bottom: 2px solid #f0932b;
