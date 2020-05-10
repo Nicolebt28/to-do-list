@@ -6,94 +6,99 @@
   <title>To-Do App</title>
   <link href="https://fonts.googleapis.com/css?family=Crete+Round&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" type="text/css" href="colorsbutton.js">
 </head>
 
 <body>
+  <div class="wrapper">
   <h1 class="text__maintitle">TASKS TO BE DONE</h1>
-  <form class="checklist">
+  <ul class="todo-list js-todo-list"></ul>
+
+  <form class="checklist" id="checklist">
     <label class="container">
       <label class="checklist__custom">
         <input class="checklist__box" id="checkbox" type= "checkbox"> 
         <span class="checklist__checkmark"></span>
       </label>
-      <input class="checklist__to-do-item" type= "text">
+      <input class="checklist__to-do-item" type= "text" id="todo-item">
     </label>
 
     <label class="container">
       <label class="checklist__custom">
-        <input class="checklist__box" id="checkbox" type= "checkbox">
+        <input class="checklist__box" id="checkbox" type= "checkbox"> 
         <span class="checklist__checkmark"></span>
       </label>
-      <input class="checklist__to-do-item" type= "text">
-    </label>
-      
-    <label class="container">
-      <label class="checklist__custom">
-        <input class="checklist__box" id="checkbox" type= "checkbox">
-        <span class="checklist__checkmark"></span>
-        </label>
-        <input class="checklist__to-do-item" type= "text">
+      <input class="checklist__to-do-item" type= "text" id="todo-item">
     </label>
 
     <label class="container">
       <label class="checklist__custom">
-        <input class="checklist__box" id="checkbox" type= "checkbox">
+        <input class="checklist__box" id="checkbox" type= "checkbox"> 
         <span class="checklist__checkmark"></span>
       </label>
-      <input class="checklist__to-do-item" type= "text">
-    </label>
-      
-    <label class="container">
-      <label class="checklist__custom">
-        <input class="checklist__box" id="checkbox" type= "checkbox">
-        <span class="checklist__checkmark"></span>
-      </label>
-      <input class="checklist__to-do-item" type= "text">
+      <input class="checklist__to-do-item" type= "text" id="todo-item">
     </label>
 
     <label class="container">
       <label class="checklist__custom">
-        <input class="checklist__box" id="checkbox" type= "checkbox">
+        <input class="checklist__box" id="checkbox" type= "checkbox"> 
         <span class="checklist__checkmark"></span>
       </label>
-      <input class="checklist__to-do-item" type= "text">
+      <input class="checklist__to-do-item" type= "text" id="todo-item">
     </label>
 
     <label class="container">
       <label class="checklist__custom">
-        <input class="checklist__box" id="checkbox" type= "checkbox">
+        <input class="checklist__box" id="checkbox" type= "checkbox"> 
         <span class="checklist__checkmark"></span>
       </label>
-      <input class="checklist__to-do-item" type= "text">
+      <input class="checklist__to-do-item" type= "text" id="todo-item">
     </label>
 
     <label class="container">
       <label class="checklist__custom">
-        <input class="checklist__box" id="checkbox" type= "checkbox">
+        <input class="checklist__box" id="checkbox" type= "checkbox"> 
         <span class="checklist__checkmark"></span>
       </label>
-      <input class="checklist__to-do-item" type= "text">
+      <input class="checklist__to-do-item" type= "text" id="todo-item">
     </label>
 
     <label class="container">
       <label class="checklist__custom">
-        <input class="checklist__box" id="checkbox" type= "checkbox">
+        <input class="checklist__box" id="checkbox" type= "checkbox"> 
         <span class="checklist__checkmark"></span>
       </label>
-      <input class="checklist__to-do-item" type= "text">
+      <input class="checklist__to-do-item" type= "text" id="todo-item">
     </label>
 
     <label class="container">
       <label class="checklist__custom">
-        <input class="checklist__box" id="checkbox" type= "checkbox">
+        <input class="checklist__box" id="checkbox" type= "checkbox"> 
         <span class="checklist__checkmark"></span>
       </label>
-      <input class="checklist__to-do-item" type= "text">
+      <input class="checklist__to-do-item" type= "text" id="todo-item">
+    </label>
+
+    <label class="container">
+      <label class="checklist__custom">
+        <input class="checklist__box" id="checkbox" type= "checkbox"> 
+        <span class="checklist__checkmark"></span>
+      </label>
+      <input class="checklist__to-do-item" type= "text" id="todo-item">
+    </label>
+
+    <label class="container">
+      <label class="checklist__custom">
+        <input class="checklist__box" id="checkbox" type= "checkbox"> 
+        <span class="checklist__checkmark"></span>
+      </label>
+      <input class="checklist__to-do-item" type= "text" id="todo-item">
     </label>
 
   <div>
-    <input class="button" type= "reset" value="I'm All Done!">
+    <input type="button" class="reset" value="Clear" id="submit">
   </div>
 </form>
+</div>
+
+<script src="check.js"></script>
 </html>

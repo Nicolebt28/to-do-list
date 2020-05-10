@@ -1,4 +1,4 @@
-.button {
+.reset {
   background-color: #fff;
   color: #f0932b;
   font-family: 'Crete Round', serif;
@@ -17,7 +17,7 @@
 }
 
 @media (min-width: 600px) {
-  .button {
+  .reset {
     font-size: 20px;
     padding: 10px 10px;
     width: 200px;
