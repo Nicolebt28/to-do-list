@@ -1,11 +1,18 @@
+.checklist {
+  display: grid;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .container{
   display: inline-flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   width: auto;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 2fr;
+  margin-right: 2fr;
 }
 
 .checklist__custom input {
