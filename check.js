@@ -24,5 +24,6 @@ document.getElementById("submit").onclick = function checkTheList () {
     document.getElementById("checklist").reset();
   }
 };
+  
 
 
