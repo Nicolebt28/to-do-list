@@ -16,6 +16,16 @@
   box-shadow: 3px 3px 0px #f0932b;
 }
 
+.reset:hover {
+  background-color: #f6e58d;
+  color: #f0932b;
+}
+
+.reset:active{
+  transform: translate(3px, 3px);
+  box-shadow: 0px 0px 0px #f0932b;
+}
+
 @media (min-width: 600px) {
   .reset {
     font-size: 20px;
